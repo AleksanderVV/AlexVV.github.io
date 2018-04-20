@@ -1,0 +1,874 @@
+/*Подключение шрифтов*/
+
+@font-face {
+    font-family: 'Natasha';
+    src: url('../fonts/Natasha.eot');
+    src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Natasha.woff2') format('woff2'),
+        url('../fonts/Natasha.woff') format('woff'),
+        url('../fonts/Natasha.ttf') format('truetype'),
+        url('../fonts/Natasha.svg#Natasha') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 900';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: url('../fonts/MuseoSansCyrl-100.eot');
+    src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+/* -----Specification----- */
+body {
+	font-size: 15px;
+	color: #22241b;
+	letter-spacing: 0.12em;
+	padding: 0;
+	margin: 0;
+}
+ 	
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-beetween {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+/* -----Header----- */
+
+.header {
+	background: url(../img/Header.jpg) no-repeat center top / cover;
+	color: #fff;
+	padding-top: 51px;
+	padding-bottom: 83px;
+}
+
+.header__logo {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.header__logo-my {
+	font-family: 'Museo Sans Cyrl 100';
+}
+
+.header__logo-port {
+	font-family: 'Museo Sans Cyrl 900';
+}
+
+.header__menu {
+	width: 320px;
+	font-family: 'Museo Sans Cyrl 900';
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-left: 176px;
+	justify-content: space-between;
+}
+
+.header__menu-item a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__menu-item:hover {
+	
+}
+
+.header__mail {
+	font-family: 'Museo Sans Cyrl 300';
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	border-bottom: 1px solid #686966;
+	padding-bottom: 2px;
+	margin-left: auto;
+	letter-spacing: 0.12em;
+}
+
+.header__mail:hover {
+	border-bottom: 1px solid #fff;
+	transition: all 0.2s ease;
+}
+
+h1 {
+	font-family: 'Natasha';
+	color: #fff;	
+	font-size: 49px;
+	margin-top: 293px;
+	text-align: center;
+	margin-bottom: 16px;
+	margin-left: 4px;
+	letter-spacing: 0.12em;
+
+}
+
+h3 {
+	font-family: 'Museo Sans Cyrl 100';
+	text-transform: uppercase;	
+	font-size: 29px;
+	text-align: center;
+	margin-bottom: 257px;
+	letter-spacing: 0.11em;
+
+}
+
+.header__arrow {
+	margin: 0 auto;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #fafafa;
+	border-radius: 50%;
+	font-size: 18px;
+	padding-left: 15px;
+    padding-top: 5px;
+}
+
+.header__arrow a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header__arrow:hover {
+	cursor: pointer;
+}
+
+/* -----About Me----- */
+
+.about-me {
+	padding-top: 85px;
+	padding-bottom: 25px;
+}
+
+h2 {
+	font-family: 'Natasha';
+	font-size: 37px;
+	margin-bottom: 69px;
+	letter-spacing: 0.12em;
+}
+
+.about-me__background {
+	width: 440px;
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 15px;
+}
+
+h4 {
+	font-family: 'Natasha';
+	font-size: 22px;
+	color: #888886;
+	letter-spacing: 0.12em;
+	margin-bottom: 31px;
+}
+
+.about-me__background p {
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+	margin-bottom: 24px;
+	padding-top: 4px;
+}
+
+.about-me__offer {
+	width: 465px;
+}
+
+.about-me__offer h4 {
+	margin-left: 5px;
+}
+
+.merit__blocks {
+	margin-top: 57px;
+}
+
+.merit__item {
+	width: 115px;
+	font-family: 'Museo Sans Cyrl 100';
+	margin-left: 20px;
+	margin-right: 23px;
+}
+
+.merit__item:nth-child(3) {
+	margin-right: 0;
+}
+
+.merit__num {
+	height: 73px;
+	width: 73px;
+	font-size: 20px;
+	color: #204d15;
+	border: 1px solid #3e6534;
+	justify-content: center;
+	margin: 0 auto;
+	transform: rotate(45deg);
+}
+
+.merit__num:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	border: 1px solid #cddbc3;
+}
+
+.merit__prog-num {
+	transform: rotate(-45deg);
+}
+
+.merit__text {
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 1.5em;
+	margin-top: 38px;
+	text-transform: uppercase;
+}
+
+.merit__text_year {
+	width: 60px;
+	margin: 38px auto;
+}
+
+.communications {
+	margin-top: 27px;
+}
+
+.communications__items {
+	margin-left: 7px;
+}
+
+.communications__item {
+	display: inline-block;
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 14px;
+	color: #204d15;
+	text-decoration: none;
+	border-bottom: 1px solid #becbbb;
+	padding-bottom: 3px;
+	margin-bottom: 14px;
+}
+
+.communications__item:hover {
+	border-bottom: 1px solid #204d15;
+}
+
+.communications__icon {
+	font-size: 25px !important;
+	width: 62px;
+	height: 62px;
+	color: #204d15;
+	background-color: #eef1ed;
+	border-radius: 50%;
+	justify-content: center;
+	margin: 10px 19px 0 42px;
+}
+
+.communications__text {
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	opacity: 0.72;
+	width: 170px;
+	margin-top: 30px;
+}
+
+/* -----Portfolio----- */
+
+.portfolio {
+	margin-top: 43px;
+	padding-bottom: 80px;
+}
+
+.portfolio__percent {
+	width: 61px;
+	height: 61px;
+	border: 1px solid #204d15;
+	color: #204d15;
+	border-radius: 50%;
+	font-family: 'Museo Sans Cyrl 100';
+	font-size: 13px;
+	justify-content: center;
+	position: relative;
+}
+
+.portfolio__percent:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+	border: 1px solid #b5b9b4;
+	top: 5px;
+	left: 5px;
+
+}
+
+.portfolio h2 {
+	margin-bottom: 53px;
+}
+
+.portfolio__block {
+	margin-left: 3px;
+	margin-right: 37px;
+}
+
+.portfolio__block:nth-child(3) {
+	margin-left: 59px;
+	margin-right: 105px;
+}
+
+.portfolio__text {
+	font-family: 'Museo Sans Cyrl 900';
+	font-size: 15px;
+	margin-left: 25px;
+	text-transform: uppercase;
+	opacity: 0.89;
+	align-items: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+/* -----Works----- */
+
+.works {
+	padding-bottom: 110px;
+}
+
+.works__caption {
+	margin-top: 4px;
+    margin-bottom: 52px;
+}
+
+.works__elk {
+	position: relative;
+}
+
+.works__img {
+	margin-right: 20px;
+}
+
+.works__capt-img {
+	font-family: 'Museo Sans Cyrl 900';
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.works__see {
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 13px;
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.works__overlay {
+	background: rgba(0, 0, 0, 0.56); 
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	opacity: 0; 
+	transition: all 0.5s ease;
+	display: flex;
+	letter-spacing: 0.02em; 
+	justify-content: center;
+	align-items: center; 
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.works__elk {
+	height: 300px;
+}
+
+.works__elk:hover .works__overlay {
+	opacity: 1;
+	display:  flex; 
+}
+
+/* -----Footer-----*/
+
+.footer {
+	padding-bottom: 110px;
+	padding-top: 13px;
+    letter-spacing: 0.11em;
+}
+
+.footer__future {
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 11px;
+	text-transform: uppercase;
+	opacity: 0.66;
+}
+
+/* -------Переход вверх-------- */
+
+#vverh {
+	display: none;
+	position: fixed;
+	right: 10%; /* своё значение */ 
+	bottom: 10px;
+	color: #bbb;
+	transition: 1s;
+	cursor: pointer;
+}
+#vverh:before {
+	position: absolute;
+	content: url(../img/arrow.png);
+	margin-top: -55px;
+	margin-right: 300px;
+}
+
+/* -----Media Queries----- */
+
+/* ---992-1200px---*/
+@media screen and (max-width: 1200px) {
+	#vverh {
+		right: 6%;
+	}
+}
+
+/* ---768-992px---*/
+@media screen and (max-width: 992px) {
+	.container {width: 700px;}
+	h1 {
+		margin-top: 200px;
+	}
+	h3 {
+		margin-bottom: 150px;
+	}
+	.header__menu {
+		margin-left: 50px;
+		justify-content: space-around;
+	}
+	.header__menu-item {
+		margin-right: 10px;
+	}
+	.about-me__offer {
+		width: 50%;
+		padding-left: 20px;
+	}
+	.merit__item {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.communications__items {
+		display: block;
+		width: 250px;
+	}
+	.communications__exhort {
+		justify-content: center;
+	}
+	.communications__icon {
+		margin: 10px 8px 0 0px;
+	}
+	.portfolio__block:nth-child(3) {
+		margin: 0;
+		margin-right: 30px;
+	}
+	.portfolio__block {
+		margin: 0;
+		margin-right: 30px;
+	}
+	.works {
+		padding-bottom: 0;
+	}
+	.works__img {
+		width: 90%;
+	}
+	.works__overlay {
+		width: 90%;
+		height: 70%;
+	}
+	#vverh {
+		right: 8%;
+	}
+}
+
+/* ---576-768px---*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.header__logo {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.header__nav {
+		display: block;
+		text-align: center;
+	}
+	.header__menu {
+		margin: 10px auto 10px;
+	}
+	h1 {font-size: 40px;}
+	h2 {text-align: center;}
+	h3 {font-size: 20px;}
+	.about-me__items {
+		display: block;
+		text-align: center;
+	}
+	.about-me__background, 
+	.about-me__offer {
+		margin: 0 auto;
+		width: 90%;
+	}
+	.about-me__background p {
+		text-align: left;
+	}
+	.merit h4 {margin-top: 40px;}
+	.merit__item {
+		margin-right: 80px;
+	}
+	.merit__blocks {
+		margin-left: -20px;
+	}
+	.communications__items {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin-left: 0;
+	}
+	.communications__links {
+		text-align: left;
+	}
+	.communications__exhort {
+		margin-left: 20px;
+	}
+	.portfolio__block {
+		display: block;
+		margin: 0 auto;
+	}
+	.portfolio__block:nth-child(2) {
+		margin-left: 0;
+		margin-right: 70px;
+	}
+	.portfolio__text {
+		margin-left: 0;
+		margin-top: 10px;
+		justify-content: center;
+	}
+	.works__overlay {
+		width: 90%;
+		height: 70%;
+	}
+	.works__elk {
+		height: 230px;
+	}
+	.footer {
+		padding-bottom: 40px;
+	}
+	#vverh {
+		right: 12%;
+	}
+
+}
+
+/* ---480-576px---*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 460px;
+	}
+	.header {
+		padding-bottom: 50px;
+	}
+	.header__logo {
+		display: block;
+	}
+	.header__menu {
+		margin: 30px auto 10px;
+		width: 300px;
+	}
+	h1 {
+		font-size: 43px;
+		margin-top: 120px;
+	}
+	h2 {text-align: center;}
+	h3 {
+		font-size: 22px;
+		margin-bottom: 100px;
+	}
+	.about-me__items {
+		display: block;
+		text-align: center;
+	}
+	.about-me__background, 
+	.about-me__offer {
+		margin: 0 auto;
+		width: 90%;
+		padding-left: 0;
+	}
+	.about-me__background p {
+		font-size: 14px;
+	}
+	.merit h4 {margin-top: 60px;}
+	.merit__blocks {
+		display: block;
+	}
+	.merit__item {
+		width: 280px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.merit__num {
+		margin-bottom: 20px;
+	}
+	.merit__text {
+		margin-right: -64px;
+		margin-top: 30px;
+		text-align: left;
+		margin-left: 20px;
+		width: 67%;
+	}
+	.communications__items {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin-left: 0;
+	}
+	.communications__links {
+		text-align: left;
+	}
+	.communications__exhort {
+		margin-left: 20px;
+	}
+	.portfolio__block:nth-child(2) {
+		margin-left: 0;
+		margin-right: 49px;
+	}
+	.works__images {
+		display: block;
+		width: 70%;
+		margin-left: 90px;
+	}
+	.works__elk {
+		height: 302px;
+	}
+	.works__overlay {
+		width: 90%;
+		height: 96%;
+	}
+	.footer {
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
+	#vverh {
+		right: 18%;
+	}
+}
+
+/* ---320-480px---*/
+@media screen and (max-width: 480px) {
+	.container {
+		width: 320px;
+	}
+	.header {
+		padding-bottom: 50px;
+	}
+	.header__logo {
+		display: block;
+	}
+	.header__menu {
+		margin: 30px auto 10px;
+		width: 300px;
+	}
+	h1 {
+		font-size: 43px;
+		margin-top: 120px;
+	}
+	h2 {text-align: center;}
+	h3 {
+		font-size: 22px;
+		margin-bottom: 100px;
+	}
+	.about-me__items {
+		display: block;
+		text-align: center;
+	}
+	.about-me__background, 
+	.about-me__offer {
+		margin: 0 auto;
+		width: 90%;
+		padding-left: 0;
+	}
+	.about-me__background p {
+		font-size: 14px;
+	}
+	.merit h4 {margin-top: 40px;}
+	.merit__blocks {
+		display: block;
+	}
+	.merit__item {
+		width: 280px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.merit__num {
+		margin-bottom: 20px;
+	}
+	.merit__text {
+		margin-top: 20px;
+		text-align: left;
+		margin-left: 0;
+		width: 150px;
+		margin-right: 0;
+	}
+	.merit__text_year {
+		margin-top: 28px;
+	}
+	.communications__items {
+		display: block;
+	}
+	.communications__links {
+		margin-left: 20px;
+	}
+	.communications__text {
+		width: 113px;
+		text-align: left;
+		margin-top: 25px;
+	}
+	.communications__exhort {
+		justify-content: left;
+	}
+	.portfolio__items {
+		display: block;
+	}
+	.portfolio__block {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin: 0;
+		margin-bottom: 20px;
+		justify-content: left;
+	}
+	.portfolio__block:nth-child(2) {
+		margin-left: 0;
+		margin-right: 0px;
+	}
+	.portfolio__block:nth-child(3) {
+		margin-left: 0;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.portfolio__percent {
+		margin-left: 20px;
+	}
+	.portfolio__text {
+		margin-left: 20px;
+		margin-top: 0;
+	}
+	.works__images {
+		display: block;
+		margin: 0 auto;
+		margin-left: 10px;
+		width: 96%;
+	}
+	.works__img {
+		width: 100%;
+	}
+	.works__overlay {
+		width: 100%;
+		height: 95%;
+	}
+	.works__elk {
+		width: 290px;
+	}
+		#vverh {
+		right: 18%;
+	}
+}
+
+
+
+
+
